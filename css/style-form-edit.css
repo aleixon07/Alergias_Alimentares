@@ -1,0 +1,53 @@
+.section-1{
+position: relative;
+margin-left: 300px;
+}
+
+.caixa__login_edit{
+    background-color: #f7f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    width: 1000px;
+  
+}
+.caixa__login_edit .caixa__login-input {
+    position: relative;
+  }
+
+  
+.caixa__login_edit .caixa__login-input input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #484949;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #4e4b4b;
+    outline: none;
+    background: transparent;
+  }
+  .caixa__login_edit .caixa__login-input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #0b4430;
+  }
+  
+
+  
+  .text-title{
+    color: #64caa6;
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+  
+  .x-sair{
+    text-decoration: none;
+    color: #414040;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+.caixa__login {
+  position: absolute;
+  left: 44% ;
+  top: 65%;
+  width: 500px;
+  padding: 40px;  
+  transform: translate(-50%, -50%);
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+
+}
+.caixa__login .caixa__login-input {
+  position: relative;
+}
+
+.caixa__login .caixa__login-input input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #484949;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #242323;
+  outline: none;
+  background: transparent;
+}
+.caixa__login .caixa__login-input label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #80CCB1;
+  pointer-events: none;
+}
+
+.caixa__login .caixa__login-input input:focus ~ label,
+.caixa__login .caixa__login-input input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #80CCB1;
+  font-size: 12px;
+}
+
+h4{
+  color: #80CCB1;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.x-sair{
+  text-decoration: none;
+  color: #414040;
+  font-weight: 600;
+  font-size: 18px;
+}
+
